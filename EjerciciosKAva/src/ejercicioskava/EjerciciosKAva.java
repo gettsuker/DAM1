@@ -21,12 +21,15 @@ public class EjerciciosKAva {
         String nombre;
         String apellido;
         int edad;
+        double altura;
         System.out.println("Introduzca su nombre");
         nombre = lector.nextLine();
         System.out.println("Introduzca su apellido");
         apellido = lector.nextLine();
         System.out.println("Introduzca su edad");
         edad = lector.nextInt();
+        System.out.println("Introduzca su altura");
+        altura = lector.nextDouble();
         System.out.println("Me llamo "+nombre+apellido+" Y tengo "+edad+" años");
     }
     
